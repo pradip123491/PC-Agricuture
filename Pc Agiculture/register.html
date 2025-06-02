@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Pc Agriculture</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <script src="js/validation.js"></script>
+
+    <style>
+        .hero_bg_box {
+            background-image: url('images/arable.jpg');
+            /* Replace with your image path */
+            background-size: cover;
+            background-position: center top;
+            /* Adjust as needed */
+            height: 80px;
+            /* Adjust the height of the background image area */
+        }
+
+        .navbar {
+            background-color: transparent;
+            /* Make the navigation bar transparent */
+        }
+
+        .navbar-brand {
+            color: #fff;
+            /* Text color for the brand/logo */
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            /* Text color for the navigation links */
+        }
+
+        .service_section {
+            padding-top: 30px;
+        }
+
+        .navbar-toggler .navbar-nav .nav-link {
+            color: black;
+        }
+
+        .card {
+            border: 1px solid #e0e0e0;
+            transition: transform 0.2s, box-shadow 0.2s, border 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            border: 1px solid #508bfc;
+            /* Change the border color to your desired color */
+        }
+
+        .btn-box a {
+            display: inline-block;
+            padding: 10px 45px;
+            background-color: #f1db25;
+            color: #ffffff;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            border: 1px solid transparent;
+        }
+
+        .btn-box a:hover {
+            background-color: transparent;
+            border-color: #f1db25;
+            color: #f1db25;
+        }
+
+        .yellow-underline {
+            border-bottom: 3px solid yellow;
+            padding-bottom: 5px;
+            transition: border-bottom 0.3s;
+            margin-top: 0px;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+        }
+        .navbar {
+            background-color: black;
+        }
+
+        .header_section .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .navbar-brand span{
+            padding-left: 10px;
+        }
+       
+    </style>
+    
+
+</head>
+
+<body>
+    <div class="hero_area">
+        <!-- Header section starts -->
+        <!-- <div class="hero_bg_box">
+            <div class="img-box">
+                <img src="images/arable.jpg" alt="">
+            </div>
+        </div> -->
+
+        <header class="header_section">
+            <div class="header_bottom">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg custom_nav-container">
+                        <a class="navbar-brand" href="index.html">
+                            <span>
+                                Pc Agriculture
+                            </span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class=""></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="machine.html"> machine</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="seed.html"> Seed</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html"> About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="service.html"> Services </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="register.html"><span
+                                            class="sr-only">(current)</span>Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="h-100 h-custom">
+            <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-lg-8 col-xl-6">
+                        <div class="card rounded-3">
+                        
+                            <div class="card-body p-4 p-md-5">
+                                <h5 class="card-title text-center">
+                                    <span class="yellow-underline">Register Here!</span>
+                                </h5>
+
+                                <form class="px-md-2" method="POST" action="register.html"
+                                    onsubmit="return(sing_up_valid());">
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label mt-4" for="form3Example1q">Full Name : </label>
+                                        <input type="text" id="fname" name="fname" class="form-control" />
+                                        <p id="p5"></p>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example1q">Mobile Number : </label>
+                                        <input type="number" id="mo" name="mo" class="form-control" />
+                                        <p id="p4"></p>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example1q">Email Id : </label>
+                                        <input type="email" id="email" name="email" class="form-control" />
+                                        <p id="p1"></p>
+                                    </div>
+
+
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example1q">Password : </label>
+                                        <input type="password" id="password" name="pass" class="form-control" />
+                                        <p id="p2"></p>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form3Example1q">Repeat Password : </label>
+                                        <input type="password" id="password2" name="cpass" class="form-control" />
+                                        <p id="p3"></p>
+                                    </div>
+                                   
+                                    <div class="text-center mt-3">
+                                        <button type="submit" name="subm" class="btn btn-lg"
+                                            style="color: white; background-color: yellow;">Register Now!</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>                          
+
+
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <section class="info_section ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="info_logo">
+                        <a class="navbar-brand" href="index.html">
+                            <span>
+                                Pc Agriculture
+                            </span>
+                        </a>
+                        <p style="text-align: justify;">
+                            In Pc Agricultural, you can book online machines and buy seeds online.we provide best free
+                            home delivery.so join our family now.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info_info">
+                        <h5>
+                            Contact Us
+                        </h5>
+                    </div>
+                    <div class="info_contact">
+                        <a href="" class="">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span>
+                                Pipaliya, Rajkot, Gujarat, India - 360003
+                            </span>
+                        </a>
+                        <a href="" class="">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span>
+                                Call: +91 9316071998
+                            </span>
+                        </a>
+                        <a href="" class="">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span>
+                                pradipchavada096@gmail.com
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info_form">
+                        <h5>
+                            Join Pc Agriculture
+                        </h5>
+                        <form action="#">
+                            <input type="email" placeholder="Enter your email">
+                            <button class="btn-box btn-2">
+                                Send email
+                            </button>
+                        </form>
+                        <div class="social_box">
+                            <a href="https://www.facebook.com/pradip.chavda.925602">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://twitter.com/pchavda096">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/pc._.here/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section">
+        <p>
+            &copy; <span id="currentYear"></span> All Rights Reserved by pradip chavda
+        </p>
+    </footer>
+    <!-- footer section -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

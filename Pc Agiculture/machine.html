@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Pc Agriculture</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- Fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <style>
+        /* Custom CSS for the background image */
+        .hero_bg_box {
+            background-image: url('images/arable.jpg');
+            /* Replace with your image path */
+            background-size: cover;
+            background-position: center top;
+            /* Adjust as needed */
+            height: 80px;
+            /* Adjust the height of the background image area */
+        }
+
+        .navbar {
+            background-color: transparent;
+            /* Make the navigation bar transparent */
+        }
+
+        .navbar-brand {
+            color: #fff;
+            /* Text color for the brand/logo */
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            /* Text color for the navigation links */
+        }
+
+        .team_section {
+            margin-top: 0px;
+            padding-top: 50px;
+        }
+
+        .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Set a fixed height for the card images */
+        .card .card-img-top {
+            height: 200px;
+            /* Adjust the height as needed */
+        }
+
+        /* Add CSS styles to manage image within columns */
+        .box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            /* Use "cover" to maintain aspect ratio and cover the container */
+        }
+
+        .box {
+            text-align: center;
+        }
+
+        .yellow-underline {
+            border-bottom: 3px solid yellow;
+            padding-bottom: 5px;
+            transition: border-bottom 0.3s;
+            margin-top: 0px;
+        }
+
+        .btn-box a {
+            display: inline-block;
+            padding: 10px 45px;
+            background-color: #f1db25;
+            color: #ffffff;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            border: 1px solid transparent;
+        }
+
+        .btn-box a:hover {
+            background-color: transparent;
+            border-color: #f1db25;
+            color: #f1db25;
+        }
+
+        .navbar {
+            background-color: black;
+        }
+
+        .header_section .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .navbar-brand span{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div className="hero_area">
+        <!-- Header section starts -->
+        <!-- <div className="hero_bg_box">
+            <div className="img-box">
+            <img src="images/arable.jpg" alt="">
+            </div>
+        </div> -->
+
+        <header className="header_section">
+            <div className="header_bottom">
+                <div className="container-fluid">
+                    <nav className="navbar navbar-expand-lg custom_nav-container">
+                        <a className="navbar-brand" href="index.html">
+                            <span style="padding-right: 5px;">
+                                Pc Agriculture
+                            </span>
+                        </a>
+                        <button className="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span className=""></span>
+                        </button>
+
+                        <div className="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                            <ul className="navbar-nav">
+                                <li className="nav-item active">
+                                    <a className="nav-link" href="index.html">Home </a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="machine.html">Machine<span
+                                            className="sr-only">(current)</span></a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="seed.html">Seed</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="about.html">About</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="service.html">Services</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="contact.html">Contact us</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="login.html">Login</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="register.html">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <section className="team_section layout_padding">
+            <div className="container">
+                <div className="heading_container heading_center">
+                    <h2>
+                        Our Machines
+                    </h2>
+                    <p>
+                        We provides you best machine with latest feature, best technology with good booking cahrge.So
+                        this is
+                        the time to book machine and join with our farmers family.Once you rent our machine then you
+                        realize how
+                        our company deal with our farmers freinds.So what you are waitting for book now machine on pc
+                        Agriculture.
+                    </p>
+                </div>
+
+                <div className="container mt-4">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="card">
+                                <img src="images/machine_backhoe.png" className="card-img-top" alt="Image 1">
+                                <div className="card-body">
+                                    <div className="heading_container heading_center">
+                                        <h4>
+                                            Backhoe
+                                        </h4>
+                                    </div>
+                                    <div className="btn-box">
+                                        <a href="" className="btn-2">Book Here! </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card">
+                                <img src="images/new_tractor.png" className="card-img-top" alt="Image 2">
+                                <div className="card-body">
+                                    <div className="heading_container heading_center">
+                                        <h4>
+                                            Tractor
+                                        </h4>
+                                    </div>
+                                    <div className="btn-box">
+                                        <a href="" className="btn-2">Book Here! </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card">
+                                <img src="images/machine_harvester.png" className="card-img-top" alt="Image 3">
+                                <div className="card-body">
+                                    <div className="heading_container heading_center">
+                                        <h4>
+                                            harvester
+                                        </h4>
+                                    </div>
+                                    <div className="btn-box">
+                                        <a href="" className="btn-2">Book Here! </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="container mt-4">
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="card">
+                                <img src="images/Harrow.png" className="card-img-top" alt="Image 1">
+                                <div className="card-body">
+                                    <div className="heading_container heading_center">
+                                        <h4>
+                                            Harrow
+                                        </h4>
+                                    </div>
+                                    <div className="btn-box">
+                                        <a href="" className="btn-2">Book Here! </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card">
+                                <img src="images/cultivator.png" className="card-img-top" alt="Image 2">
+                                <div className="card-body">
+                                    <div className="heading_container heading_center">
+                                        <h4>
+                                            Cultivator
+                                        </h4>
+                                    </div>
+                                    <div className="btn-box">
+                                        <a href="" className="btn-2">Book Here! </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="card">
+                                <img src="images/disk harrow.png" className="card-img-top" alt="Image 3">
+                                <div className="card-body">
+                                    <div className="heading_container heading_center">
+                                        <h4>
+                                            disk harrow
+                                        </h4>
+                                    </div>
+                                    <div className="btn-box">
+                                        <a href="" className="btn-2">Book Here! </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+
+    <section className="info_section">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-4">
+                    <div className="info_logo">
+                        <a className="navbar-brand" href="index.html">
+                            <span>
+                                Pc Agriculture
+                            </span>
+                        </a>
+                        <p style="text-align: justify;">
+                            In Pc Agricultural, you can book online machines and buy seeds online.we provide best free
+                            home delivery.so join our family now.
+                        </p>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="info_info">
+                        <h5>
+                            Contact Us
+                        </h5>
+                    </div>
+                    <div className="info_contact">
+                        <a href="" className="">
+                            <i className="fa fa-map-marker" aria-hidden="true"></i>
+                            <span>
+                                Pipaliya, Rajkot, Gujarat, India - 360003
+                            </span>
+                        </a>
+                        <a href="" className="">
+                            <i className="fa fa-phone" aria-hidden="true"></i>
+                            <span>
+                                Call: +91 9316071998
+                            </span>
+                        </a>
+                        <a href="" className="">
+                            <i className="fa fa-envelope" aria-hidden="true"></i>
+                            <span>
+                                pradipchavada096@gmail.com
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="info_form">
+                        <h5>
+                            Join Pc Agriculture
+                        </h5>
+                        <form action="#">
+                            <input type="email" placeholder="Enter your email">
+                            <button className="btn-box btn-2">
+                                Send email
+                            </button>
+                        </form>
+                        <div className="social_box">
+                            <a href="https://www.facebook.com/pradip.chavda.925602">
+                                <i className="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://twitter.com/pchavda096">
+                                <i className="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="">
+                                <i className="fa fa-youtube" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/pc._.here/">
+                                <i className="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- end info_section -->
+
+
+
+
+    <!-- footer section -->
+    <footer className="container-fluid footer_section">
+        <p>
+            &copy; <span id="currentYear"></span> All Rights Reserved by pradip chavda
+        </p>
+    </footer>
+    <!-- footer section -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
